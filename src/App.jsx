@@ -52,7 +52,7 @@ function App() {
           </p>
           <div className="flex items-center sm:gap-4 gap-2">
             <a
-              href="/Muhammad-Pawwaaz-Rafii-resume(QA).pdf"
+              href="/CV Rafii (QA).pdf"
               download={"Muhammad-Pawwaaz-Rafii-resume(QA)"}
               className="bg-violet-500 p-4 rounded-2xl hover:bg-violet-700"
             >
@@ -60,7 +60,7 @@ function App() {
               Download CV<i className="ri-download-line ri-lg"></i>
             </a>
             <a
-              href="projek"
+              href="#projek"
               className="bg-violet-300 p-4 rounded-2xl hover:bg-violet-500"
             >
               {" "}
