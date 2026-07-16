@@ -10,6 +10,7 @@ export const SectionId = {
   Beranda: "beranda",
   Tentang: "tentang",
   Projek: "projek",
+  Kontak: "kontak",
 };
 
 import VsCode from "/assets/tools/vscode.png";

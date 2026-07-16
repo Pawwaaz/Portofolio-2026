@@ -89,13 +89,11 @@ function App() {
             loading="lazy"
           />
           <p className="text-base/loose mb-10">
-            Fresh Graduate Teknologi Rekayasa Multimedia dari Politeknik Negeri
-            Media Kreatif dengan IPK 3.74. Memiliki latar belakang Web
-            Development yang memberikan keunggulan teknis dalam Quality
-            Assurance. Berpengalaman dalam functional testing, API testing
-            dengan Postman, dan automated testing dengan Katalon Studio. Teliti,
-            berorientasi detail, dan memahami SDLC dari sisi developer maupun
-            tester.
+            Memiliki passion di bidang IT, khususnya Quality Assurance (QA).
+            Berpengalaman memahami alur pengembangan software dengan metode SDLC
+            Waterfall, serta terampil dalam pembuatan test case untuk manual
+            testing. Memiliki pemahaman dasar pengujian otomatis API menggunakan
+            Postman dan automation testing menggunakan Katalon Studio.
           </p>
           <div className="flex items-center justify-between">
             <img
@@ -222,7 +220,7 @@ function App() {
         </div>
 
         {/* Kontak */}
-        <div className="kontak mt-32 sm:p-10 p-0">
+        <div className="kontak mt-32 sm:p-10 p-0" id="kontak">
           <h1
             className="text-4xl mb-2 font-bold text-center"
             data-aos="fade-up"

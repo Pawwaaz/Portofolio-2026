@@ -54,7 +54,10 @@ const Navbar = () => {
           </a>
         </li>
         <li>
-          <a href="" className="sm:text-lg text-base font-medium">
+          <a
+            href={`#${SectionId.Kontak}`}
+            className="sm:text-lg text-base font-medium"
+          >
             Kontak
           </a>
         </li>
