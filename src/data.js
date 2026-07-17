@@ -154,6 +154,7 @@ import Varsity from "/assets/proyek/varsity.webp";
 import Katalog from "/assets/proyek/katalog.webp";
 import Aksesmu from "/assets/proyek/aksesmu.webp";
 import Instansi from "/assets/proyek/seragam-kerja-instansi.webp";
+import SetorTunai from "/assets/proyek/setor-tunai.webp";
 
 export const listProyek = [
   {
@@ -176,20 +177,20 @@ export const listProyek = [
   },
   {
     id: 3,
-    gambar: Boogie,
-    nama: "Boogie Apparel",
-    desk: "Membangun website company profile resmi PT Boogie Apparel Indonesia menggunakan WordPress dan Elementor. Website mencakup katalog produk seragam kerja, safety, dan medis, lengkap dengan halaman portofolio, artikel, karir, dan informasi perusahaan untuk kebutuhan B2B.",
-    tools: ["Wordpress", "Elementor", "JavaScript", "GSAP", "CSS3"],
-    link: "https://boogieapparel.co.id/",
+    gambar: SetorTunai,
+    nama: "Test Case Stor Tunai di ATM",
+    desk: "Menyusun test case manual testing untuk fitur Setor Tunai di mesin ATM, mencakup skenario normal dan edge case, didokumentasikan dalam format spreadsheet untuk keperluan QA.",
+    tools: ["Manual Testing", "Excel", "Test Case"],
+    link: "https://docs.google.com/spreadsheets/d/1aVIRMJAfiv1WMWc1q6wTivJHFS0KwUxDGsel1_Ojm80/edit?usp=sharing",
     dad: "300",
   },
   {
     id: 4,
-    gambar: Portofolio,
-    nama: "Landing Page Portofolio",
-    desk: "Mendesain dan membangun landing page portfolio untuk PT Boogie Apparel Indonesia menggunakan WordPress dan Elementor. Halaman menampilkan galeri hasil produksi dan klien perusahaan dengan layout visual yang dirancang dari awal untuk memperkuat kredibilitas brand di hadapan calon klien B2B.",
-    tools: ["Wordpress", "Elementor", "JavaScript", "CSS3"],
-    link: "https://boogieapparel.co.id/portfolio/",
+    gambar: Aksesmu,
+    nama: "Test Case Aksesmu APP (Registration)",
+    desk: "Melakukan pengujian manual pada fitur registrasi aplikasi Aksesmu, mencakup pembuatan test case dan eksekusi pengujian.",
+    tools: ["Manual Testing", "Excel", "Test Case"],
+    link: "https://docs.google.com/spreadsheets/d/1HiI_wmAFe-RgEben5hQwjRDa1tNMfHtQ5h2CfAZXC5E/edit?usp=sharing",
     dad: "400",
   },
   {
@@ -239,11 +240,11 @@ export const listProyek = [
   },
   {
     id: 10,
-    gambar: Aksesmu,
-    nama: "Test Case Aksesmu APP (Registration)",
-    desk: "Melakukan pengujian manual pada fitur registrasi aplikasi Aksesmu, mencakup pembuatan test case dan eksekusi pengujian.",
-    tools: ["Manual Testing", "Excel", "Test Case"],
-    link: "https://docs.google.com/spreadsheets/d/1HiI_wmAFe-RgEben5hQwjRDa1tNMfHtQ5h2CfAZXC5E/edit?usp=sharing",
+    gambar: Portofolio,
+    nama: "Landing Page Portofolio",
+    desk: "Mendesain dan membangun landing page portfolio untuk PT Boogie Apparel Indonesia menggunakan WordPress dan Elementor. Halaman menampilkan galeri hasil produksi dan klien perusahaan dengan layout visual yang dirancang dari awal untuk memperkuat kredibilitas brand di hadapan calon klien B2B.",
+    tools: ["Wordpress", "Elementor", "JavaScript", "CSS3"],
+    link: "https://boogieapparel.co.id/portfolio/",
     dad: "1000",
   },
   {
@@ -254,5 +255,14 @@ export const listProyek = [
     tools: ["Wordpress", "Elementor", "JavaScript", "CSS3"],
     link: "https://boogieapparel.co.id/seragam-kerja-instansi",
     dad: "1100",
+  },
+  {
+    id: 12,
+    gambar: Boogie,
+    nama: "Boogie Apparel",
+    desk: "Membangun website company profile resmi PT Boogie Apparel Indonesia menggunakan WordPress dan Elementor. Website mencakup katalog produk seragam kerja, safety, dan medis, lengkap dengan halaman portofolio, artikel, karir, dan informasi perusahaan untuk kebutuhan B2B.",
+    tools: ["Wordpress", "Elementor", "JavaScript", "GSAP", "CSS3"],
+    link: "https://boogieapparel.co.id/",
+    dad: "1200",
   },
 ];
